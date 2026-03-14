@@ -1,6 +1,10 @@
-# aion-dl (Αἰών)
-![Python Version](https://img.shields.io/badge/python-3.11%2B-orange)
-![License: GPL](https://img.shields.io/badge/License-GPL-blue)
+<h1 align="center"> <img src="assets/
+io.github.piratheon.aion-dl.png" width="48" height="48"> <br><b>Aion-dl (Αἰών): A ytdlp GUI written in python-</b></h1>
+
+<div align='center'>
+  <img src"https://img.shields.io/badge/python-3.11%2B-orange" />
+  <img src"https://img.shields.io/badge/License-GPL-blue" />
+</div>
 
 A polished GTK4 + Libadwaita GUI frontend for yt-dlp — fast, extensible, and user-friendly.
 
