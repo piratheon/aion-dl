@@ -1,5 +1,5 @@
 # aion-dl (Αἰών)
-
+![Python Version](https://img.shields.io/badge/python-3.11%2B-orange)
 ![License: GPL](https://img.shields.io/badge/License-GPL-blue)
 
 A polished GTK4 + Libadwaita GUI frontend for yt-dlp — fast, extensible, and user-friendly.
