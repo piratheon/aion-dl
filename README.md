@@ -89,6 +89,7 @@ python3 -m aion_dl.main 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 - History: ~/.config/aion-dl/history.json
 
 ## 8. Project layout
+```
 Aion-dl/
 ├── pyproject.toml      — Build system configuration
 ├── requirements.txt    — Python dependencies
@@ -112,7 +113,7 @@ Aion-dl/
 │           ├── settings_page.py
 │           └── history_page.py
 └── install.sh          — Dependency checker script
-
+```
 ## 9. Contributing
 - Fork the repo, create a feature branch, and open a pull request against main. 
 - Follow PEP8 and GNOME/Adwaita UI conventions. 
