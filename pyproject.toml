@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aion-dl"
+version = "1.0.0"
+description = "A full-featured GTK4/Adwaita frontend for yt-dlp"
+authors = [
+    { name = "Piratheon", email = "piratheon@github.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0" }
+dependencies = [
+    "yt-dlp",
+]
+
+[project.scripts]
+aion-dl = "aion_dl.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["aion_dl", "aion_dl.widgets"]
+
+[tool.setuptools.package-data]
+"aion_dl" = ["*.css"]
