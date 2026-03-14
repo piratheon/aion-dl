@@ -31,10 +31,10 @@ aion-dl exposes yt-dlp’s capabilities in a native GTK4/Libadwaita desktop app 
 
 ## 3. Screenshots
 Queue tab :
-![Queue Tab](.github/Queue-Tab_screnshot.png)
+![Queue Tab](assets/Queue-Tab_screnshot.png)
 
 History tab :
-![History Tab](.github/History-Tab_screnshot.png)
+![History Tab](assets/History-Tab_screnshot.png)
 
 (Place these images in the repository root or adjust paths if stored under /docs or /assets.)
 
