@@ -5,8 +5,6 @@
   <img src="https://img.shields.io/badge/License-GPL-blue" />
 </div>
 
-A polished GTK4 + Libadwaita GUI frontend for yt-dlp — fast, extensible, and user-friendly.
-
 ## 1. About
 aion-dl exposes yt-dlp’s capabilities in a native GTK4/Libadwaita desktop app with per-job controls, concurrent downloads, advanced format/post-processing, subtitle & thumbnail management, SponsorBlock support, playlist handling, robust networking/auth, and a searchable history.
 
