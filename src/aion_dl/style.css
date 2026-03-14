@@ -1,0 +1,78 @@
+/*
+ * style.css - Custom GTK4 CSS for Aion-dl
+ *
+ * Loaded by the application at startup.
+ * Uses Adwaita CSS variables for proper dark/light theme support.
+ */
+
+/* ---- Download row --------------------------------------------------- */
+listbox.boxed-list > row {
+  border-radius: 6px;
+}
+
+listbox.boxed-list > row:not(:last-child) {
+  border-bottom: 1px solid alpha(@borders, 0.5);
+}
+
+/* Progress bar text readability */
+progressbar text {
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+/* ---- Badge / tag style ---------------------------------------------- */
+label.tag {
+  background-color: alpha(@accent_color, 0.15);
+  color: @accent_color;
+  border-radius: 99px;
+  padding: 2px 8px;
+  font-size: 0.78em;
+  font-weight: 600;
+}
+
+/* ---- Status bar -------------------------------------------------------- */
+actionbar {
+  border-top: 1px solid alpha(@borders, 0.6);
+  background-color: alpha(@headerbar_bg_color, 0.7);
+}
+
+/* ---- Navigation sidebar ------------------------------------------------ */
+.navigation-sidebar > row {
+  border-radius: 6px;
+  margin: 2px 6px;
+}
+
+.navigation-sidebar > row:selected {
+  background-color: alpha(@accent_color, 0.15);
+  color: @accent_color;
+}
+
+.navigation-sidebar > row:selected image {
+  color: @accent_color;
+}
+
+/* ---- URL bar ----------------------------------------------------------- */
+entry.error {
+  border-color: @error_color;
+  background-color: alpha(@error_color, 0.08);
+}
+
+/* ---- Empty state icon -------------------------------------------------- */
+image.dim-label {
+  opacity: 0.35;
+}
+
+/* ---- Error label in rows ----------------------------------------------- */
+label.error {
+  color: @error_color;
+}
+
+/* ---- Format panel scrolled window -------------------------------------- */
+popover scrolledwindow {
+  background: transparent;
+}
+
+/* ---- Preferences groups in settings ------------------------------------ */
+preferencesgroup > box > label {
+  font-weight: 700;
+}

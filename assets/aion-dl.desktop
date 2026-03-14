@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Aion-dl
+Comment=GTK4/Adwaita frontend for yt-dlp
+Exec=aion-dl
+Icon=io.github.piratheon.aion-dl
+Terminal=false
+Type=Application
+Categories=Video;AudioVideo;Network;GTK;
+Keywords=youtube;downloader;video;audio;yt-dlp;
+StartupNotify=true
+StartupWMClass=io.github.piratheon.aion-dl
